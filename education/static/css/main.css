@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@200;400;600&family=Nunito&display=swap');
+
+body {
+	background-color: #1c1c1c;
+	margin: 0;
+}
+
+#big-img {
+	display: block;
+	height: clamp(170px, 25vw, 350px);
+}
+
+#nav-brand {
+	font-family: 'Nunito', sans-serif;
+}
+
+@media screen and (max-width: 380px) {
+	h1 {
+		font-size: 15px;
+	}
+	h2 {
+		font-size: 13px;
+		right: 0;
+	}
+	#header {
+		font-size: 19px;
+	}
+	nav {
+		height: 45px;
+	}
+	#nav-brand {
+		margin-left: 12px;
+	}
+	.content {
+		margin-left: 12px;
+		margin-bottom: 155px;
+		margin-right: 5px;
+		padding-bottom: 60px;
+	}
+	#big-img {
+		margin-left: 0px;
+		margin-right: 0px;
+	}
+	.card-content {
+		margin-bottom: 30px;
+		margin-right: 32px;
+	}
+}
+
+@media screen and (min-width: 380px) {
+	nav {
+		height: 65px;
+	}
+	#header {
+		font-size: 22px;
+	}
+	#nav-brand {
+		margin-left: 50px;
+	}
+	.content {
+		margin-left: 65px;
+		margin-bottom: 195px;
+		margin-right: 65px;
+		padding-right: 10vw;
+		max-width: 60vw;
+		padding-bottom: 130px;
+	}
+	#big-img {
+		margin-left: auto;
+		margin-right: auto;
+	}
+	
+}
+
+#header {
+	color: #eeeeee;
+}
+
+#header:hover {
+	text-decoration: underline;
+}
+
+.nav-content {
+	display: flex;
+	width: 100%;
+}
+
+h1, h2 {
+	color: #eeeeee;
+}
+
+h2 {
+	font-family: 'Noto Sans Thai', sans-serif;
+}
+
+a {
+	font-family: 'Noto Sans Thai', sans-serif;
+	text-decoration: none;
+	color: #eeeeee;
+}
+
+p {
+	'Noto Sans Thai', sans-serif;
+	color: #909090;
+}
+
+nav {
+	background-color: #161616;
+	position: sticky;
+	top: 0px;
+}
+
+#nav-item {
+	margin-left: clamp(22px,2vw,60px);
+}
+
+#nav-button:hover {
+	text-decoration: underline;
+}
+
+.content {
+	margin-top: 25px;
+}
+
+.card-content {
+	word-wrap: break-word;
+}
